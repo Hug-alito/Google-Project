@@ -1,0 +1,228 @@
+.html {
+    height: 100%;
+    height: 100vh;
+}
+
+.body {
+    display: flex;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #bdc1c6;
+    flex-flow: column;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    position: relative;
+    background: #202124;
+}
+
+.détail_applications{
+    fill: white;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+.barre_du_haut {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.loupe {
+    display: flex;
+    fill: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
+.espace_logo {
+    display: flex;
+    height: 200px;
+}
+
+.logo_image {
+    display: flex;
+}
+
+.barre_de_recherche {
+    display: flex;
+    width: 35%;
+    height: 24px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    background-color: transparent;
+    box-shadow: 0 1px 6px 0 #353535;
+    text-indent: 5%;
+}
+
+.bouton_connecter {
+    display: flex;
+    color: white;
+    background-color: #1A73E8;
+    border: 0px;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.sous-menu {
+    display: flex;
+    color: #bdc1c6;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.menu2 {
+    margin-right: 15px;
+    display: flex;
+    color: #bdc1c6;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration:none;
+}
+
+.applications {
+    display: flex;
+}
+
+.détail_applications {
+    margin: 0px 15px 0px 0px;
+    height: 28px;
+    width: 28px;
+}
+
+.espace_boutons {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.espace_barre_de_recherche {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+}
+
+.espace_libre {
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.espace_logo {
+    display: flex;
+    min-height: 92px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.espace_bas_block {
+    display: block;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17%;
+    background-color: #171717;
+    margin-left: -8px;
+}
+
+.espace_bas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background-color: #171717;
+    width: 100%;
+    
+}
+
+.espace_bas_haut {
+    display: flex;
+    order: 0;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.espace_bas_gauche {
+    display:flex;
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+    justify-content:last baseline;
+    flex-wrap: wrap;
+}
+
+.espace_bas_droite {
+    display:flex;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 2;
+    justify-content:last baseline;
+    flex-wrap: wrap;
+}
+
+.lien {
+    padding: 10px 10px 10px 10px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #bdc1c6;
+    white-space: nowrap;
+    text-decoration:none;
+}
+
+.pays {
+    display: block;
+    padding: 15px 30px 10px 10px;
+    font-family: airla, sans-serif;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.feuille{
+    padding: 0px 10px 0px 0px;
+    width : 10px;
+    height : 10px;
+}
+
+.bouton {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
